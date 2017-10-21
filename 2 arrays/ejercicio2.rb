@@ -11,10 +11,22 @@
 
 a = [1, 2, 3, 9, 1, 4, 5, 2, 3, 6, 6]
 
+# está cada ejercicio comentado para que puedan ser ejecutados de uno, y no se vayan pisando entre ellos
+
 # a.pop
 # puts a
-#
+
 # a.shift
 # puts a
 
-puts(a.length - 1)
+# a.delete_at(5)
+# print a
+
+# a.delete_at(10) { |s| s == 6 }
+# print a
+
+# (1..11).each do |i|
+#   b = []
+#   b.push(a.pop)
+#   puts b
+# end
